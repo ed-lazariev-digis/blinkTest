@@ -1,0 +1,20 @@
+blink,
+.blink {
+  animation: 0.25s blinker linear infinite;
+}
+
+.react-blink {
+  opacity: 0;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
